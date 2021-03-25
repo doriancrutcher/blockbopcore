@@ -1,0 +1,1 @@
+/Users/doriankinoocrutcher/Documents/blockheads/blockbop/blockbop/contract/target/wasm32-unknown-unknown/debug/libgreeter.rlib: /Users/doriankinoocrutcher/Documents/blockheads/blockbop/blockbop/contract/src/lib.rs

@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/doriankinoocrutcher/Documents/blockheads/blockbop/blockbop/contract/target/wasm32-unknown-unknown/debug/build/typenum-bc53b44848eadf63/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/Users/doriankinoocrutcher/Documents/blockheads/blockbop/blockbop/contract/target/wasm32-unknown-unknown/debug/build/typenum-bc53b44848eadf63/out/op.rs

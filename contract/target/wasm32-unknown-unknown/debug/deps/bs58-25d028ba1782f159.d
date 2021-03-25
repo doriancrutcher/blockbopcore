@@ -1,0 +1,10 @@
+/Users/doriankinoocrutcher/Documents/blockheads/blockbop/blockbop/contract/target/wasm32-unknown-unknown/debug/deps/bs58-25d028ba1782f159.rmeta: /Users/doriankinoocrutcher/.cargo/registry/src/github.com-1ecc6299db9ec823/bs58-0.3.1/src/lib.rs /Users/doriankinoocrutcher/.cargo/registry/src/github.com-1ecc6299db9ec823/bs58-0.3.1/src/alphabet.rs /Users/doriankinoocrutcher/.cargo/registry/src/github.com-1ecc6299db9ec823/bs58-0.3.1/src/decode.rs /Users/doriankinoocrutcher/.cargo/registry/src/github.com-1ecc6299db9ec823/bs58-0.3.1/src/encode.rs
+
+/Users/doriankinoocrutcher/Documents/blockheads/blockbop/blockbop/contract/target/wasm32-unknown-unknown/debug/deps/libbs58-25d028ba1782f159.rlib: /Users/doriankinoocrutcher/.cargo/registry/src/github.com-1ecc6299db9ec823/bs58-0.3.1/src/lib.rs /Users/doriankinoocrutcher/.cargo/registry/src/github.com-1ecc6299db9ec823/bs58-0.3.1/src/alphabet.rs /Users/doriankinoocrutcher/.cargo/registry/src/github.com-1ecc6299db9ec823/bs58-0.3.1/src/decode.rs /Users/doriankinoocrutcher/.cargo/registry/src/github.com-1ecc6299db9ec823/bs58-0.3.1/src/encode.rs
+
+/Users/doriankinoocrutcher/Documents/blockheads/blockbop/blockbop/contract/target/wasm32-unknown-unknown/debug/deps/bs58-25d028ba1782f159.d: /Users/doriankinoocrutcher/.cargo/registry/src/github.com-1ecc6299db9ec823/bs58-0.3.1/src/lib.rs /Users/doriankinoocrutcher/.cargo/registry/src/github.com-1ecc6299db9ec823/bs58-0.3.1/src/alphabet.rs /Users/doriankinoocrutcher/.cargo/registry/src/github.com-1ecc6299db9ec823/bs58-0.3.1/src/decode.rs /Users/doriankinoocrutcher/.cargo/registry/src/github.com-1ecc6299db9ec823/bs58-0.3.1/src/encode.rs
+
+/Users/doriankinoocrutcher/.cargo/registry/src/github.com-1ecc6299db9ec823/bs58-0.3.1/src/lib.rs:
+/Users/doriankinoocrutcher/.cargo/registry/src/github.com-1ecc6299db9ec823/bs58-0.3.1/src/alphabet.rs:
+/Users/doriankinoocrutcher/.cargo/registry/src/github.com-1ecc6299db9ec823/bs58-0.3.1/src/decode.rs:
+/Users/doriankinoocrutcher/.cargo/registry/src/github.com-1ecc6299db9ec823/bs58-0.3.1/src/encode.rs:
