@@ -14,6 +14,7 @@ import {
   FormControl,
   Card,
   Jumbotron,
+  NavItem,
 } from "react-bootstrap";
 import {
   HashRouter as Router,
@@ -163,9 +164,15 @@ export default function App() {
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse aria-controls='basic-navbar-nav' />
           <Nav className='mr-auto'>
-            <Nav.Link href='/'>Home</Nav.Link>
-            <Nav.Link href='/MyMusic'>My Bops</Nav.Link>
-            <Nav.Link href='/Listens'>{listenAmt} :Listens</Nav.Link>
+            <Nav.Link>
+              <Link to='/'>Home</Link>
+            </Nav.Link>
+            <Nav.Link>
+              <Link to='/MyMusic'>My Bops</Link>
+            </Nav.Link>
+            <Nav.Link>
+              <Link to='/Listens'>{listenAmt} :Listens</Link>
+            </Nav.Link>
           </Nav>
           <Form inline>
             <FormControl
