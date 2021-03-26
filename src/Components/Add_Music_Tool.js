@@ -325,6 +325,7 @@ const Add_Music_Tool = (props) => {
   };
 
   const onDrop = async (acceptedFiles) => {
+    changeLoading(true);
     if (songs.length > 50) {
       throw new Error("Gallery at maximum size");
     }
@@ -334,7 +335,9 @@ const Add_Music_Tool = (props) => {
     for (const accepted of acceptedFiles) {
       await handleNewFile(accepted);
     }
+    changeLoading(false);
     storeIndex(index);
+    alert("reload page please");
   };
 
   // Like and Dislike Contract Functions
@@ -377,7 +380,9 @@ const Add_Music_Tool = (props) => {
                       fontFamily: "Roboto Mono, monospace;",
                     }}
                   >
-                    Drag 'n' drop some files here, or click to select files
+                    {loading
+                      ? `Loading`
+                      : `Drag 'n' drop some files here, or click to select files`}
                   </p>
                 </Button>
               )}
@@ -387,6 +392,7 @@ const Add_Music_Tool = (props) => {
         <Container>
           <Table striped bordered hover variant='dark'>
             <thead>
+              {loading ? <tr colSpan='2'>Loading</tr> : null}
               <tr>
                 <th>Song Name</th>
                 <th>Player</th>
