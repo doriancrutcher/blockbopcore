@@ -13,7 +13,7 @@ const TipTool = (props) => {
       displayName: recipient,
     });
     await window.account.sendMoney(getNearName, formatToYoctoNEAR);
-    alert(`${recipient} thanks you for sending the tip!`);
+    alert(`${recipient} thank you for sending the tip!`);
     changeMonies(true);
   };
 
