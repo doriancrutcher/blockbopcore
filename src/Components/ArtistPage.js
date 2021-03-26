@@ -213,7 +213,7 @@ const ArtistPage = (props) => {
             <tr>
               <th>Track Name</th>
               <th>Player</th>
-              <th>Contributors</th>
+              {/* <th>Contributors</th> */}
             </tr>
           </thead>
           <tbody>
@@ -230,7 +230,7 @@ const ArtistPage = (props) => {
                       controls
                     />
                   </td>
-                  <td>
+                  {/* <td>
                     <Container>
                       <Row className='d-flex justify-content-center'>
                         <Col className='d-flex justify-content-center'>
@@ -248,7 +248,7 @@ const ArtistPage = (props) => {
                         </Col>
                       </Row>
                     </Container>
-                  </td>
+                  </td> */}
                   <td>
                     <Container>
                       <Row className='d-flex justify-content-center'></Row>

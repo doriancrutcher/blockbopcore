@@ -1,12 +1,14 @@
-import React, { useReducer, useRef } from "react";
+import React, { useReducer, useRef, useState } from "react";
 import PropTypes from "prop-types";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 
 const SignUpPage = (props) => {
   const displayNameRef = useRef();
   const twitchRef = useRef();
+  const [sentInfo, changeSentInfo] = useState(false);
 
   const submitInfo = async () => {
+    changeSentInfo(true);
     if (displayNameRef.current.value === "") {
       return alert("please enter a display name");
     } else {
@@ -70,7 +72,9 @@ const SignUpPage = (props) => {
                 style={{ marginTop: "10px" }}
                 className='d-flex justify-content-center'
               >
-                <Button onClick={submitInfo}>Submit</Button>
+                <Button disabled={sentInfo} onClick={submitInfo}>
+                  Submit
+                </Button>
               </Row>
             </Container>
           </Card.Body>
