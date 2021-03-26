@@ -22,6 +22,13 @@ const FeaturedArtist = (props) => {
   const [buckets, changeBuckets] = useState("");
   const [bucketKey, changeBucketKey] = useState("");
   const [links, changeLinks] = useState([]);
+  const [loading, changeLoading] = useState(false);
+  const [index, changeIndex] = useState({
+    author: "",
+    date: 0,
+    paths: [],
+    songNames: [],
+  });
 
   //artistIPFS Key
   //aristsName

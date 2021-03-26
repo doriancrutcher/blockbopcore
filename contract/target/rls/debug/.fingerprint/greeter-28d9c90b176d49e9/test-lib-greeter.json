@@ -1,0 +1,1 @@
+{"rustc":2624477146670686978,"features":"[]","target":17653412825846304045,"profile":12844305253125231438,"path":10872709659218687626,"deps":[[8912194196642874699,"near_sdk",false,4776521762436072387]],"local":[{"CheckDepInfo":{"dep_info":"debug/.fingerprint/greeter-28d9c90b176d49e9/dep-test-lib-greeter"}}],"rustflags":[],"metadata":14894896775255343796,"config":0}

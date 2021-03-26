@@ -1,13 +1,20 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import PropTypes from "prop-types";
 import { Container, Card, Row, Col, Button } from "react-bootstrap";
 import { async } from "regenerator-runtime";
 
 const TipTool = (props) => {
   const tipRef = useRef();
+  const [sendMonies, changeMonies] = useState(false);
+
   const sendTip = async (recipient, amount) => {
     let formatToYoctoNEAR = window.utils.format.parseNearAmount(amount);
-    await window.account.sendMoney(recipient, formatToYoctoNEAR);
+    let getNearName = await window.contract.getNearName({
+      displayName: recipient,
+    });
+    await window.account.sendMoney(getNearName, formatToYoctoNEAR);
+    alert(`${recipient} thanks you for sending the tip!`);
+    changeMonies(true);
   };
 
   return (
@@ -22,6 +29,7 @@ const TipTool = (props) => {
             </Col>
             <Col>
               <Button
+                disabled={sendMonies}
                 onClick={() => sendTip(props.recipient, tipRef.current.value)}
               >
                 Send Tip
