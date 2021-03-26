@@ -25,6 +25,13 @@ const ArtistPage = (props) => {
     },
   ]);
 
+  const [index, changeIndex] = useState({
+    author: "",
+    date: 0,
+    paths: [],
+    songNames: [],
+  });
+
   //artistIPFS Key
   //aristsName
 
